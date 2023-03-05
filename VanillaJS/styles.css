@@ -1,14 +1,25 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
+    margin: 1rem;
 }
 
 
 .btn {
     background-color: black;
     color: antiquewhite;
+    padding: 0.5rem, 2rem;
+    border-radius: 5px;
+    margin: 0 1rem;
 }
 
 .modal {
     background-color: burlywood;
+    color: rgb(0, 0, 0);
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+    text-align: center;
+
 }
