@@ -11,15 +11,17 @@ function deleteAction() {
         return;
       }
     modal = document.createElement('div')
-
+    modal.className = 'modal'
     const modalText = document.createElement('p')
     modalText.textContent = "Are you sure you'd like to delete this?"
 
     const confirmButton = document.createElement('button')
     confirmButton.textContent="Confirm"
+    confirmButton.className = 'btn'
 
     const cancelButton = document.createElement('button')
     cancelButton.textContent="Cancel"
+    cancelButton.className = 'btn'
 
     modal.append(cancelButton)
     modal.append(confirmButton)
